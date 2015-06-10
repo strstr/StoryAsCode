@@ -12,7 +12,7 @@ class HarryPotterScene1 : Scene
         Muggle MrDursley = new Muggle();
         Muggle MsDursley = new Muggle();
 
-        MrDursley.Home = MsDursley.Home = new House();
+        MrDursley.Home = MsDursley.Home = new House(4, "Privet Drive");
 
         // were proud to say that they were perfectly normal, 
         MrDursley.IsNormal = true;
